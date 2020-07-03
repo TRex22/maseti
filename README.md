@@ -1,2 +1,2 @@
 # maseti
-Client to download an process the Maseti dataset. https://www.justice.gov.za/master/maseti/maseti.html
+Client to download and process the Maseti dataset. https://www.justice.gov.za/master/maseti/maseti.html
