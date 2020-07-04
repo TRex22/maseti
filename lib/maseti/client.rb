@@ -4,12 +4,13 @@ module Maseti
     include ::Maseti::WebPageParser
     include ::Maseti::FileDownloader
 
-    attr_reader :model, :save_data, :save_path
+    attr_reader :model, :save_data, :save_path, :read_from_save_path
 
     def initialize(model: nil, save_data: false, save_path: '', read_from_save_path: false)
       @model = model
       @save_data = save_data
       @save_path = save_path
+      @read_from_save_path = read_from_save_path
     end
 
     private

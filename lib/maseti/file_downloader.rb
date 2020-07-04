@@ -26,6 +26,10 @@ module Maseti
       file_data
     end
 
+    def compute_hash_of(data)
+      { data: data }.hash
+    end
+
     private
 
     def compute_filename(file_path)
