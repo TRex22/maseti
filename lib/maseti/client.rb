@@ -2,11 +2,14 @@ module Maseti
   class Client
     include ::Maseti::Constants
     include ::Maseti::WebPageParser
+    include ::Maseti::FileDownloader
 
-    attr_reader :model
+    attr_reader :model, :save_data, :save_path
 
-    def initialize(model: nil)
-
+    def initialize(model: nil, save_data: false, save_path: '', read_from_save_path: false)
+      @model = model
+      @save_data = save_data
+      @save_path = save_path
     end
 
     private

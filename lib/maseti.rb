@@ -7,6 +7,7 @@ require 'maseti/constants'
 
 # Client
 require 'maseti/web_page_parser'
+require 'maseti/file_downloader'
 require 'maseti/client'
 
 module Maseti

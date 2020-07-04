@@ -1,6 +1,6 @@
 module Maseti
   module WebPageParser
-    def fetch_xls_from_pages
+    def fetch_xls_paths_from_pages
       Maseti::Constants::PAGES.flat_map do |page|
         fetch_page(page)
       end

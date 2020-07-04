@@ -2,7 +2,7 @@ module Maseti
   module Constants
     # https://www.justice.gov.za/master/maseti/bfn/bfn_estates1.xls
     BASE_URL = 'https://www.justice.gov.za/master/maseti/'
-    PAGES = [ 'maseti.html', 'maseti02.html', 'maseti03.html' ]
+    PAGES = [ 'maseti.html', 'maseti02.html' ] # TODO: Future proof?
 
     COUNTRY_CODE = {
       bho: "Bhisho",
